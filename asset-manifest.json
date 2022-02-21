@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/LittleFeetSchool/static/css/main.a87add01.css",
-    "main.js": "/LittleFeetSchool/static/js/main.3e9a8a7a.js",
+    "main.css": "/LittleFeetSchool/static/css/main.5ebdde60.css",
+    "main.js": "/LittleFeetSchool/static/js/main.5e5f4f72.js",
     "static/js/787.28cb0dcd.chunk.js": "/LittleFeetSchool/static/js/787.28cb0dcd.chunk.js",
     "static/media/slider.jpeg": "/LittleFeetSchool/static/media/slider.457e8e22070c481b9077.jpeg",
     "static/media/8.jpeg": "/LittleFeetSchool/static/media/8.337941557e4f8baa072f.jpeg",
     "static/media/10.jpeg": "/LittleFeetSchool/static/media/10.a021a5c98219897f32e3.jpeg",
     "static/media/2.jpeg": "/LittleFeetSchool/static/media/2.9becabec90082157d4c3.jpeg",
     "static/media/4.jpeg": "/LittleFeetSchool/static/media/4.917a920c6a88c974c9a5.jpeg",
+    "static/media/Principal.jpeg": "/LittleFeetSchool/static/media/Principal.b9b1b99cf9fca3125d2b.jpeg",
     "static/media/9.jpeg": "/LittleFeetSchool/static/media/9.a6a7174ef48fe8703847.jpeg",
     "static/media/11.jpeg": "/LittleFeetSchool/static/media/11.bd539e00dc4a6c2a658e.jpeg",
     "static/media/5.jpeg": "/LittleFeetSchool/static/media/5.512758362334686543cc.jpeg",
@@ -19,6 +20,7 @@
     "static/media/slider4.jpeg": "/LittleFeetSchool/static/media/slider4.5bcb5e9157cdb069c0d6.jpeg",
     "static/media/slider1.jpeg": "/LittleFeetSchool/static/media/slider1.9632566200fbad3a50c2.jpeg",
     "static/media/slider3.jpeg": "/LittleFeetSchool/static/media/slider3.08ab23b5cbb146d5c90e.jpeg",
+    "static/media/Director.jpeg": "/LittleFeetSchool/static/media/Director.1ea8c692657b710f11c9.jpeg",
     "static/media/6.jpeg": "/LittleFeetSchool/static/media/6.185e8824f11623328cb9.jpeg",
     "static/media/slider2.jpeg": "/LittleFeetSchool/static/media/slider2.365e0d5ebcf49f736eb8.jpeg",
     "static/media/slider5.jpeg": "/LittleFeetSchool/static/media/slider5.66b931a1dbe4a225a755.jpeg",
@@ -26,16 +28,16 @@
     "static/media/1.jpg": "/LittleFeetSchool/static/media/1.00c32883c8ad1c5513a2.jpg",
     "static/media/slider6.jpeg": "/LittleFeetSchool/static/media/slider6.80b04170f04e3ac58f4b.jpeg",
     "static/media/fontawesome-webfont.ttf?v=4.0.3": "/LittleFeetSchool/static/media/fontawesome-webfont.39f38361e3563f688a32.ttf",
+    "static/media/school.jpg": "/LittleFeetSchool/static/media/school.507d268199f8d692d2f1.jpg",
     "static/media/fontawesome-webfont.woff?v=4.0.3": "/LittleFeetSchool/static/media/fontawesome-webfont.83ebdc9f5008e623f9de.woff",
     "static/media/fontawesome-webfont.eot?v=4.0.3": "/LittleFeetSchool/static/media/fontawesome-webfont.48184c4732af4d6151b7.eot",
-    "static/media/team1.jpg": "/LittleFeetSchool/static/media/team1.98d6d2dbac11c2ddef18.jpg",
     "index.html": "/LittleFeetSchool/index.html",
-    "main.a87add01.css.map": "/LittleFeetSchool/static/css/main.a87add01.css.map",
-    "main.3e9a8a7a.js.map": "/LittleFeetSchool/static/js/main.3e9a8a7a.js.map",
+    "main.5ebdde60.css.map": "/LittleFeetSchool/static/css/main.5ebdde60.css.map",
+    "main.5e5f4f72.js.map": "/LittleFeetSchool/static/js/main.5e5f4f72.js.map",
     "787.28cb0dcd.chunk.js.map": "/LittleFeetSchool/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a87add01.css",
-    "static/js/main.3e9a8a7a.js"
+    "static/css/main.5ebdde60.css",
+    "static/js/main.5e5f4f72.js"
   ]
 }
