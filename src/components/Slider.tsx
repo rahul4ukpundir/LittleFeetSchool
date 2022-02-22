@@ -24,10 +24,13 @@ import { Carousel } from 'react-responsive-carousel';
       return <div><img src={imgName}/></div>
     }
     return(
-      <Carousel autoPlay={true}>
-      <div><img src={s1} /></div>
+      <Carousel 
+      showThumbs={false}
+      autoPlay={true}
+      >
+      {/* <div><img src={s1} /></div>
       <div><img src={s2} /></div>
-      <div><img src={s3} /></div>
+      <div><img src={s3} /></div> */}
       <div><img src={slider1} /></div>
       <div><img src={slider2} /></div>
       <div><img src={slider3} /></div>

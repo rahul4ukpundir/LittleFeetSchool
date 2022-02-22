@@ -10,7 +10,7 @@ class About extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <div className="col-lg-6"><img src={school} width={450}/> </div>
+                <div className="col-lg-6 col-md-4"><br/><img src={school} width={350}/> </div>
                 <div className="col-lg-6">
                   <h1>About Little Feet School</h1>
                   <p style={{textAlign:"justify"}}>

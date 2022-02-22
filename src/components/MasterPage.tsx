@@ -14,10 +14,12 @@ class MasterPage extends React.Component<any, any> {
     return (
       <div id="wrapper">
         <section>
-          <div className="row">
-            <div className="col-lg-12" style={{ backgroundColor: "red" }}>
+        <div className="">
+          <div className="row" style={{backgroundColor:"#DE3B69"}}>
+            <div className="col-lg-12">
               <Silder />
             </div>
+          </div>
           </div>
         </section>
         <section className="hero-text">
