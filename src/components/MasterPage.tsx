@@ -3,7 +3,8 @@ import Menu from "./Menu";
 import Silder from "./Slider";
 import Course from "./Course";
 import Footer from "./Footer";
-import team1 from "../img/team1.jpg";
+import team1 from "../img/Staff/Director.jpeg";
+import team2 from "../img/Staff/Principal.jpeg";
 
 class MasterPage extends React.Component<any, any> {
   constructor(props: any) {
@@ -26,9 +27,9 @@ class MasterPage extends React.Component<any, any> {
                 <div>
                   <h1 className="aligncenter">Little Feet School</h1>
                   <span className="clear spacer_responsive_hide_mobile">
-                    Founded in 2019, Little Feet School is an offshoot of
-                    the engineering conglomerate Meerut Institute of Engineering
-                    and Technology. The Director Geeta Raghuvanshi possesses, an
+                    Founded in 2019, Little Feet School is an offshoot of the
+                    engineering conglomerate Meerut Institute of Engineering and
+                    Technology. The Director Geeta Raghuvanshi possesses, an
                     illustrious and envious experience in the education field
                     and has been instrumental in the conceiving. <br />
                     Little Feet School prides itself on the quality of its
@@ -44,28 +45,43 @@ class MasterPage extends React.Component<any, any> {
                       school community. The school values a
                     </p>
                     <ul className="list-unstyled">
-                      <li><i className="fa fa-arrow-circle-right pr-10 colored"></i> A high standard of teaching and learning </li>
                       <li>
-                        <i className="fa fa-arrow-circle-right pr-10 colored"></i> A safe and welcoming environment
+                        <i className="fa fa-arrow-circle-right pr-10 colored"></i>{" "}
+                        A high standard of teaching and learning{" "}
                       </li>
                       <li>
-                        <i className="fa fa-arrow-circle-right pr-10 colored"></i> Family and community involvement
+                        <i className="fa fa-arrow-circle-right pr-10 colored"></i>{" "}
+                        A safe and welcoming environment
+                      </li>
+                      <li>
+                        <i className="fa fa-arrow-circle-right pr-10 colored"></i>{" "}
+                        Family and community involvement
                       </li>
                     </ul>
                     <br></br>
                     <b>School Motto</b> <br />
                     <p>
-                    The school motto was adopted on Harmony Day 2005 where a new school song, created by Ken Brodie, was performed. CARE in the school motto stands for:
+                      The school motto was adopted on Harmony Day 2005 where a
+                      new school song, created by Ken Brodie, was performed.
+                      CARE in the school motto stands for:
                     </p>
                     <ul className="list-unstyled">
-                      <li><i className="fa fa-arrow-circle-right pr-10 colored"></i> Commitment to Learning </li>
                       <li>
-                        <i className="fa fa-arrow-circle-right pr-10 colored"></i> Accepting Responsibility
+                        <i className="fa fa-arrow-circle-right pr-10 colored"></i>{" "}
+                        Commitment to Learning{" "}
                       </li>
                       <li>
-                        <i className="fa fa-arrow-circle-right pr-10 colored"></i> Respect for self, others and the environment
+                        <i className="fa fa-arrow-circle-right pr-10 colored"></i>{" "}
+                        Accepting Responsibility
                       </li>
-                      <li><i className="fa fa-arrow-circle-right pr-10 colored"></i> Excellence in all we do </li>
+                      <li>
+                        <i className="fa fa-arrow-circle-right pr-10 colored"></i>{" "}
+                        Respect for self, others and the environment
+                      </li>
+                      <li>
+                        <i className="fa fa-arrow-circle-right pr-10 colored"></i>{" "}
+                        Excellence in all we do{" "}
+                      </li>
                     </ul>
                   </span>
                 </div>
@@ -75,16 +91,60 @@ class MasterPage extends React.Component<any, any> {
         </section>
         <section>
           <div className="container">
-            <Course />
+            <div className="row">
+              <div className="skill-home">
+                {" "}
+                <div className="skill-home-solid clearfix">
+                  <div className="col-md-4 text-center">
+                    <span className="icons c1">
+                      <i className="fa fa-book"></i>
+                    </span>{" "}
+                    <div className="box-area">
+                      <h3>Quality Eduction</h3>{" "}
+                      <p>
+                        The school aims to encourage a child to do wonders, to
+                        think, to feel, and to imagine by out Quality Education.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-md-4 text-center">
+                    <span className="icons c2">
+                      <i className="fa fa-thumbs-up"></i>
+                    </span>{" "}
+                    <div className="box-area">
+                      <h3>Quality Material</h3>{" "}
+                      <p>
+                        Our School Provides Your Child the quality material so
+                        that the study will not bother him.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-md-4 text-center">
+                    <span className="icons c3">
+                      <i className="fa fa-desktop"></i>
+                    </span>{" "}
+                    <div className="box-area">
+                      <h3> Boost Their Learning </h3>{" "}
+                      <p>
+                        Our School always try to appreciate students so that
+                        they can motivate them to achieve more and more in their
+                        life
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
+       
         <section>
           <div className="container">
             <div className="row">
               <div className="col-sm-4">
                 <img src={team1} alt="" width={300} height={300} />
                 <br /> <br />
-                <div style={{marginLeft:30}}>
+                <div>
                   <b>Geeta Raghuvanshi (Director)</b>
                 </div>
               </div>
@@ -93,16 +153,14 @@ class MasterPage extends React.Component<any, any> {
                   <b>Director Message</b>
                 </p>
                 <p>
-                  "EDUCATION IS A SHARED COMMITMENT BETWEEN DEDICATED TEACHERS,
-                  MOTIVATED STUDENTS AND ENTHUSIASTIC PARENTS WITH HIGH
-                  EXPECTATIONS" <br />
+                 
                   Today, the role of a school is not only to pursue the academic
                   excellence but also to motivate and empower the students to be
                   lifelong learners, critical thinkers, and productive members
                   of an ever-changing global society. Converting every
                   individual into a self-reliant and independent citizen, our
                   school provides an amalgam of scholastic and co-scholastic
-                  activities. <br />
+                  activities. <br /> <br />
                   The world today is changing at such an accelerated rate and we
                   as educators need to pause and reflect on this entire system
                   of Education."To Motivate the Late bloomers, To mold the
@@ -117,11 +175,42 @@ class MasterPage extends React.Component<any, any> {
                 </p>
               </div>
             </div>
+            <div className="row">
+              <div className="col-sm-4">
+                <img src={team2} alt="" width={300} height={300} />
+                <br /> <br />
+                <div>
+                  <b>Rekha Singh (Principal)</b>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <p>
+                  <b>Principal Message</b>
+                </p>
+                <p>
+                  As I walk down the hallways of the school everyday, I can hear
+                  the chatter of eager minds, the shouts of excitement from the
+                  victorious athletes, the thump of dancer feet and the sound of
+                  melodious voices harmonizing. The perpetual energy, movement
+                  and enthusiasm permeate the atmosphere at Little Feet School. We
+                  are a school with a difference! We value individualism,
+                  creativity and innovation and strive to nurture them in our
+                  students. 
+                  <br/><br/>Our motto “Spread the Light” is at the heart of
+                  everything we do at the school. We aim to not just impart
+                  knowledge to the students, but also to inculcate in them –
+                  wisdom, compassion, and a humanitarian spirit. We have a
+                  multi-cultural student population; hence we teach children the
+                  importance of tolerance and respecting each other’s culture.
+                  Discipline, values, and integrity are the very foundation of
+                  this school.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
-        
-          <Footer />
-        
+
+        <Footer />
       </div>
     );
   }

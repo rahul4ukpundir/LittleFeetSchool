@@ -14,7 +14,7 @@ import img11 from "../img/gallery/11.jpeg";
 class Gallery extends React.Component {
   render() {
     return (
-      <div id="">
+      <div className="container">
           <br/>  <br/>  <br/>
           <h1 className="aligncenter">Festival cellebration photos</h1>
         <section>

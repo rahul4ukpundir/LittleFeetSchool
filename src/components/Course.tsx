@@ -2,7 +2,7 @@ import Syllabus from "./Syllabus"
 
 const Course = () => {
   return (
-    <>
+    <div className="container">
       <div className="row">
         <div className="col-lg-12">
           <div className="aligncenter">
@@ -52,7 +52,7 @@ const Course = () => {
           </div>{" "}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
