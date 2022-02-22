@@ -48,8 +48,8 @@ function ModalPopup() {
         contentLabel="Example Modal"
       >
         {/* <button onClick={closeModal}>close</button> <br/><br/> */}
-        <div><span onClick={closeModal} style={{color:"red", float:"left", fontSize:20, cursor:"pointer"}}>x</span> <br/>
-        <img src={img} style={{height:500}} /></div>
+        <div><div className="closeButton" onClick={closeModal} style={{display:"flex", color:"red", marginLeft:"100px", fontSize:20, cursor:"pointer"}}>x</div> <br/>
+        <img src={img} style={{height:"60vh"}} /></div>
        
       </Modal>
     </div>
