@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LittleFeetSchool/static/css/main.e121040e.css",
-    "main.js": "/LittleFeetSchool/static/js/main.0f444944.js",
+    "main.js": "/LittleFeetSchool/static/js/main.731dc37e.js",
     "static/js/787.28cb0dcd.chunk.js": "/LittleFeetSchool/static/js/787.28cb0dcd.chunk.js",
     "static/media/8.jpeg": "/LittleFeetSchool/static/media/8.337941557e4f8baa072f.jpeg",
     "static/media/10.jpeg": "/LittleFeetSchool/static/media/10.a021a5c98219897f32e3.jpeg",
@@ -30,11 +30,11 @@
     "static/media/fontawesome-webfont.eot?v=4.0.3": "/LittleFeetSchool/static/media/fontawesome-webfont.48184c4732af4d6151b7.eot",
     "index.html": "/LittleFeetSchool/index.html",
     "main.e121040e.css.map": "/LittleFeetSchool/static/css/main.e121040e.css.map",
-    "main.0f444944.js.map": "/LittleFeetSchool/static/js/main.0f444944.js.map",
+    "main.731dc37e.js.map": "/LittleFeetSchool/static/js/main.731dc37e.js.map",
     "787.28cb0dcd.chunk.js.map": "/LittleFeetSchool/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e121040e.css",
-    "static/js/main.0f444944.js"
+    "static/js/main.731dc37e.js"
   ]
 }
