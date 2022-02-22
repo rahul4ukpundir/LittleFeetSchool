@@ -5,6 +5,8 @@ import Course from "./Course";
 import Footer from "./Footer";
 import team1 from "../img/Staff/Director.jpeg";
 import team2 from "../img/Staff/Principal.jpeg";
+import ModalPopup from "./ModalPopup";
+
 
 class MasterPage extends React.Component<any, any> {
   constructor(props: any) {
@@ -12,26 +14,27 @@ class MasterPage extends React.Component<any, any> {
   }
   render() {
     return (
-      <div id="wrapper">
+      <div>
         <section>
-        <div className="">
-          <div className="row" style={{backgroundColor:"#DE3B69"}}>
+         <ModalPopup />
+        </section>
+        <section>
+        <div  style={{backgroundColor:"#DE3B69"}}>
+          <div className="row">
             <div className="col-lg-12">
               <Silder />
             </div>
           </div>
           </div>
         </section>
-        <section className="hero-text">
+        <section>
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div>
                   <h1 className="aligncenter">Little Feet School</h1>
                   <span className="clear spacer_responsive_hide_mobile">
-                    Founded in 2019, Little Feet School is an offshoot of the
-                    engineering conglomerate Meerut Institute of Engineering and
-                    Technology. The Director Geeta Raghuvanshi possesses, an
+                    The Director Geeta Raghuvanshi possesses, an
                     illustrious and envious experience in the education field
                     and has been instrumental in the conceiving. <br />
                     Little Feet School prides itself on the quality of its

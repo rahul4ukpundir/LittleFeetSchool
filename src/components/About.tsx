@@ -14,16 +14,12 @@ class About extends React.Component {
                 <div className="col-lg-6">
                   <h1>About Little Feet School</h1>
                   <p style={{textAlign:"justify"}}>
-                    Founded in 2010,Little Feet School is an offshoot of the
-                    engineering conglomerate Meerut Institute of Engineering and
-                    Technology. The Founder Chairman Shri Vishnu Saran
+                    Founded in 2019, The Founder Chairman Geeta Raghuvanshi
                     possesses, an illustrious and envious experience in the
-                    education field and has been instrumental in conceiving and
-                    setting up the school to give a concrete shape to the vision
-                    of his father Shri Chandra Sen the great educationist. His
+                    education field and has been instrumental in conceiving. His
                     remarkable self discipline, positive mental attitude and
                     cheerful demeanor make him a role model to students of all
-                    ages. <br/><br/>The primary focus of MIET is to provide complete all
+                    ages. <br/><br/>The primary focus of Little Feet School is to provide complete all
                     round development to every student entering its portals A
                     child centered activity based curriculum is the highlight of
                     the school and the curriculum is very meticulously planned
@@ -65,7 +61,7 @@ class About extends React.Component {
                     to provide immediate medical assistance to the students and
                     staff. The very first Class 10 CBSE results were very
                     encouraging with all the students securing between 8 to 10
-                    CGPA. This year (2017) we are presenting our very first
+                    CGPA. This year (2022) we are presenting our very first
                     class XII batch comprising Science and Commerce streams.
                     MIET has grown into an unbelievably vibrant and successful
                     academic institution that manages to combine cutting edge
