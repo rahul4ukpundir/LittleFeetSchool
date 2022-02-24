@@ -214,8 +214,11 @@ class MasterPage extends React.Component<any, any> {
             </div>
           </div>
         </section>
-
+        <footer>
+           <h3 className="aligncenter">School Celebration Photos</h3>
         <Footer />
+        </footer>
+      
       </div>
     );
   }

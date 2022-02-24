@@ -21,22 +21,15 @@ class Contact extends React.Component<any, any> {
                 <h5 className="contactDetails">Below are contact details.</h5>
                 <b>Little Feet School</b>
                 <br />
-                Meenakshipuram
+                4/A -101, Raksha Puram, Mawana Road, Meerut
                 <br />
-                Opposite Park
+                Near Meerut Club
                 <br />
-                Telephone: +1 234 567 890
+                Telephone: 6395082315, 9634061003
                 <br />
-                FAX: +1 234 567 890
-                <br />
-                E-mail US: <br />
-                <a href="director@littlefeetschool.in">
-                  director@littlefeetschool.in
-                </a>{" "}
-                <br />
-                <a href="principal@littlefeetschool.in">
-                  principal@littlefeetschool.in
-                </a>
+                E-mail US: -{" "}{" "}
+                <a href="director@littlefeetschool.in"> director@littlefeetschool.in </a>{","}
+                <a href="principal@littlefeetschool.in"> principal@littlefeetschool.in </a>
                 <br />
               </div>
             </div>

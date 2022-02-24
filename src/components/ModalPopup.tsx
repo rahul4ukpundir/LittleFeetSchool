@@ -1,14 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
 import img from "../img/Registration.jpeg";
-import {
-    Magnifier,
-    GlassMagnifier,
-    SideBySideMagnifier,
-    PictureInPictureMagnifier,
-    MOUSE_ACTIVATION,
-    TOUCH_ACTIVATION
-  } from "react-image-magnifiers";
 
 const customStyles = {
   content: {
@@ -45,11 +37,9 @@ function ModalPopup() {
         onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
         style={customStyles}
-        contentLabel="Example Modal"
       >
-        {/* <button onClick={closeModal}>close</button> <br/><br/> */}
-        <div><div className="closeButton" onClick={closeModal} style={{display:"flex", color:"red", marginLeft:"100px", fontSize:20, cursor:"pointer"}}>x</div> <br/>
-        <img src={img} style={{height:"60vh"}} /></div>
+        <div className="myButton" onClick={closeModal} style={{color:"red", float:"right",marginRight:30, cursor:"pointer", padding:5}}>Close Me</div> <br/>
+        <img src={img} style={{height:"60vh"}} />
        
       </Modal>
     </div>

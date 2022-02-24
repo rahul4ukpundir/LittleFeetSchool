@@ -1,3 +1,9 @@
+.marquee-container{
+  background-color: #F08080;
+  color:white;
+  height: 30px;
+  --gradient-color:#F08080 !important;
+}
 .nav-container{
     height: 50px !important;
     .overlay-menu .overlay-menu-item{
