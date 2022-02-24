@@ -4,6 +4,24 @@
   height: 30px;
   --gradient-color:#F08080 !important;
 }
+.overlay-container-show{
+  width:40% !important;
+  .overlay-buttonClose{
+    font-size :3rem !important;
+    cursor: pointer;
+  }
+  .overlay-menu {
+    margin-bottom: 50rem;
+    a{
+    font-size: 1.5rem !important;
+    }
+    .overlay-menu-item{
+      border: 1px solid;
+      border-radius: 2em;
+      padding:10px
+    }
+  }
+}
 .nav-container{
     height: 50px !important;
     .overlay-menu .overlay-menu-item{
