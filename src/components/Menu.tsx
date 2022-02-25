@@ -12,14 +12,14 @@ const Menu = () => {
   return (
     <Router>
       <div>
-      <Marquee gradientColor={[240, 128,128]} gradientWidth={10} pauseOnHover={true}><b> Admission start for session 2022-2023. Please call us on <b> 6395082315, 9634061003 </b> for any enquiry <b>{" "}. </b></b> </Marquee>
+      <Marquee gradientColor={[240, 128,128]} gradientWidth={10} pauseOnHover={true}><b> Admission open for session 2022-2023. Please call us on <b> 6395082315, 9634061003 </b> for any enquiry <b>{" "}. </b></b> </Marquee>
         <Navbar
           brand="Little Feet School" 
           links={[
             { text: "Home", link: "/LittleFeetSchool" },
             { text: "About", link: "/about" },
             { text: "Gallery", link: "/gallery" },
-            { text: "Course", link: "/course" },
+            { text: "Academic ", link: "/course" },
             { text: "Contact", link: "/contact" },
           ]}
           backgroundColor="#DE3B69"
