@@ -37,12 +37,13 @@ class MasterPage extends React.Component<any, any> {
                     The Director Geeta Raghuvanshi possesses, an
                     illustrious and envious experience in the education field
                     and has been instrumental in the conceiving. <br />
+                    <p>
                     Little Feet School prides itself on the quality of its
                     educational programmes, the professionalism of its staff,
                     the enthusiasm of its students and the high level of support
                     provided by parents and community members. We are an open
                     school and we actively seek participation and involvement
-                    from the whole school community. <br></br>
+                    from the whole school community. </p><br></br>
                     <br></br>
                     <b>School Values</b> <br />
                     <p>
@@ -147,8 +148,8 @@ class MasterPage extends React.Component<any, any> {
           <div className="container">
             <div className="row">
               <div className="col-sm-4">
-                <img src={team1} alt="" width={300} height={300} />
-                <br /> <br />
+                <img src={team1} alt="" width={300} height={300} style={{borderRadius:10}} />
+                <br /> 
                 <div>
                   <b>Geeta Raghuvanshi (Director)</b>
                 </div>
@@ -182,8 +183,8 @@ class MasterPage extends React.Component<any, any> {
             </div>
             <div className="row">
               <div className="col-sm-4">
-                <img src={team2} alt="" width={300} height={300} />
-                <br /> <br />
+                <img src={team2} alt="" width={300} height={300} style={{borderRadius:10}}/>
+                <br /> 
                 <div>
                   <b>Rekha Singh (Principal)</b>
                 </div>
