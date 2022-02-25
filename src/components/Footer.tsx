@@ -1,6 +1,6 @@
 import { useSpring, animated } from "react-spring";
 import { useState } from "react";
-import FooterSlider from "./FooterSlider";
+import FooterContent from "./FooterContent";
 import Marquee from "react-fast-marquee";
 
 const Footer = () => {
@@ -18,9 +18,11 @@ const Footer = () => {
   })
   return (
     <>
-    <Marquee style={{height:"100%"}} pauseOnHover={true} gradientWidth={2}> <FooterSlider /></Marquee>
+     <FooterContent />
+    {/* <Marquee style={{height:"100%"}} pauseOnHover={true} gradientWidth={2}> <FooterSlider /></Marquee> */}
+      <div id="sub-footer">
         <div className="container">
-          <div className="row">
+          <div className="row" style={{marginBottom:30}}>
             <div className="col-lg-6">
               <div className="copyright">
                 <p>
@@ -32,6 +34,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
     </>
   );
