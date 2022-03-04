@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import { Navbar } from "react-responsive-navbar-overlay";
 import "./Menu.scss";
 import Marquee from "react-fast-marquee";
+import Login from "./Login";
 
 const Menu = () => {
   return (
@@ -21,6 +22,7 @@ const Menu = () => {
             { text: "Gallery", link: "/gallery" },
             { text: "Academic ", link: "/course" },
             { text: "Contact", link: "/contact" },
+            { text: "Login", link: "/login" },
           ]}
           backgroundColor="#DE3B69"
         />
@@ -30,6 +32,7 @@ const Menu = () => {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/course" element={<Course />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
     </Router>
